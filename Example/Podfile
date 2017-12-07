@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimpleXML_Tests' do
+  pod 'SimpleXML', :path => '../'
+  
+  
+end
