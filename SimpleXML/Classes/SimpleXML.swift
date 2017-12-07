@@ -14,11 +14,11 @@
 
 import Foundation
 
-enum SimpleXMLError : Error {
+public enum SimpleXMLError : Error {
     case urlRetrieveError
 }
 
-class SimpleXML: NSObject, XMLParserDelegate {
+public class SimpleXML: NSObject, XMLParserDelegate {
     
     // MARK:- Class functions
     
@@ -101,7 +101,7 @@ class SimpleXML: NSObject, XMLParserDelegate {
     
     // MARK:- XMLParser Delegates
     
-    internal func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
+    public func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         
         dispatchedElementName = elementName
         dispatchedAttributeDict = attributeDict
@@ -110,11 +110,11 @@ class SimpleXML: NSObject, XMLParserDelegate {
         
     }
     
-    internal func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+    public func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         parent.concludeChildParsing(parser)
     }
     
-    internal func parser(_ parser: XMLParser, foundCharacters string: String) {
+    public func parser(_ parser: XMLParser, foundCharacters string: String) {
         if stringBuffer == nil {
             stringBuffer = String(string)
         } else {
@@ -122,7 +122,7 @@ class SimpleXML: NSObject, XMLParserDelegate {
         }
     }
     
-    internal func parser(_ parser: XMLParser, foundCDATA CDATABlock: Data) {
+    public func parser(_ parser: XMLParser, foundCDATA CDATABlock: Data) {
         if let string : String = String(data: CDATABlock, encoding: .utf8) {
             self.parser(parser, foundCharacters: string)
         }
