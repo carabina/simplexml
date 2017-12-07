@@ -19,6 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 A simple library for parsing XML to a Swift native Dictionary tree.
+
+This library works similairly to the standard Swift JSON libraries - you provide it access to a stream, URL, or Data buffer of XML and it returns a [String:Any] dictionary that you can walk through easily.
+
+More description and usage patterns forthcoming.
                        DESC
 
   s.homepage         = 'https://github.com/simplepanda/simplexml'
