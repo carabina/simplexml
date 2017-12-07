@@ -1,6 +1,5 @@
 # SimpleXML
 
-[![CI Status](http://img.shields.io/travis/Dylan Neild/SimpleXML.svg?style=flat)](https://travis-ci.org/Dylan Neild/SimpleXML)
 [![Version](https://img.shields.io/cocoapods/v/SimpleXML.svg?style=flat)](http://cocoapods.org/pods/SimpleXML)
 [![License](https://img.shields.io/cocoapods/l/SimpleXML.svg?style=flat)](http://cocoapods.org/pods/SimpleXML)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleXML.svg?style=flat)](http://cocoapods.org/pods/SimpleXML)

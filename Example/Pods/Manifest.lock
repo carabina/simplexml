@@ -1,5 +1,5 @@
 PODS:
-  - SimpleXML (0.1.0)
+  - SimpleXML (1.0.0)
 
 DEPENDENCIES:
   - SimpleXML (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SimpleXML: 31e0ce6a6ffcc76b00f7935e5be6703a22939ba9
+  SimpleXML: 59466e82bd47520e0f165decfc2f80765864b465
 
 PODFILE CHECKSUM: 49c007713184e68f4bbb723b164a93542d5c63f2
 

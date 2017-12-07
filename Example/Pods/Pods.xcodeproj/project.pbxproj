@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AE8ABE27953E023B733A0930065F668 /* SimpleXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5473427086EC1A29149B4B404C160375 /* SimpleXML-dummy.m */; };
 		6B27D3E498E6A8E98E08C170795CA47A /* Pods-SimpleXML_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F306F0973B3E72C053DC404FC7C0B52B /* Pods-SimpleXML_Tests-dummy.m */; };
 		6BD51C567F3446D5B9D4AE3E59D7D465 /* Pods-SimpleXML_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D719D57FE9C0C7F3F064DABDAF7519 /* Pods-SimpleXML_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B649B0F2AA85016D1296BA4B0DF846F /* SimpleXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539BB40BAA7A20D2440FAA1EDBD9F504 /* SimpleXML-dummy.m */; };
+		90E291B940C77B40726066E211C32814 /* SimpleXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D8B4C04D7728B84D2B792D4E71965F /* SimpleXML.swift */; };
 		95330D0C248FF6B048AEF80125ED402B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		985D11E808E78B41F08FACC811DBF49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F0614266566073766524E7BF3BAD3301 /* SimpleXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB2ED581856942B94F3778ED4DA3036 /* SimpleXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC394F211FDA04F3002D8D29 /* SimpleXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC394F201FDA04F3002D8D29 /* SimpleXML.swift */; };
+		F0614266566073766524E7BF3BAD3301 /* SimpleXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAC4278627826B308A882D5D6C7308D /* SimpleXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,27 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		174E065F975C222D583B15072D3D3DF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D1DAC3AE7BE673D92A65A6E9423BD4 /* SimpleXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleXML-prefix.pch"; sourceTree = "<group>"; };
 		310F55E142B625C0429B7952537FF481 /* Pods-SimpleXML_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleXML_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		33D719D57FE9C0C7F3F064DABDAF7519 /* Pods-SimpleXML_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleXML_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3FB2ED581856942B94F3778ED4DA3036 /* SimpleXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleXML-umbrella.h"; sourceTree = "<group>"; };
-		5239F0932B77D0CB5800210ED0C5A35C /* SimpleXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleXML.xcconfig; sourceTree = "<group>"; };
-		528CC3A71DF3EDED6F7912A6CDC58CB9 /* SimpleXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5473427086EC1A29149B4B404C160375 /* SimpleXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleXML-dummy.m"; sourceTree = "<group>"; };
+		528CC3A71DF3EDED6F7912A6CDC58CB9 /* SimpleXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleXML.framework; path = SimpleXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539BB40BAA7A20D2440FAA1EDBD9F504 /* SimpleXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleXML-dummy.m"; sourceTree = "<group>"; };
 		60D7D1409E9A95962F00F382A66FE8EA /* Pods-SimpleXML_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleXML_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6F7C85D33F5110796E5BE82230E4200F /* Pods-SimpleXML_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleXML_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		897C3E94F0ACD27E93588936DC38CB90 /* SimpleXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleXML.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DAC4278627826B308A882D5D6C7308D /* SimpleXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleXML-umbrella.h"; sourceTree = "<group>"; };
+		7FD6848A137FDB7FAB2061B7A51FFF05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA94CD2290AA7D815CF8875E5C3236FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B72C2A4ADB337944300AEEA1361A030E /* Pods-SimpleXML_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleXML_Tests.modulemap"; sourceTree = "<group>"; };
-		D736A04651CD258D0F4A9198EDC34448 /* SimpleXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleXML-prefix.pch"; sourceTree = "<group>"; };
+		AAA360B5080F6ECE147F88DAE100DAD4 /* SimpleXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleXML.modulemap; sourceTree = "<group>"; };
+		B26AA34BA70586AE34959D79783C59AD /* SimpleXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleXML.xcconfig; sourceTree = "<group>"; };
+		B72C2A4ADB337944300AEEA1361A030E /* Pods-SimpleXML_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleXML_Tests.modulemap"; sourceTree = "<group>"; };
 		D77B01C4A9A548727B81DB76D5573B8A /* Pods-SimpleXML_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleXML_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D98ABCF1A2ED917CED302E7A6F0A411A /* Pods-SimpleXML_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleXML_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5F033131AE10D00F8CA6E4D4D312954 /* Pods-SimpleXML_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleXML_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F306F0973B3E72C053DC404FC7C0B52B /* Pods-SimpleXML_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleXML_Tests-dummy.m"; sourceTree = "<group>"; };
-		F78E59A57A8F107E2405C72E42FC758F /* Pods_SimpleXML_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleXML_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC394F201FDA04F3002D8D29 /* SimpleXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleXML.swift; sourceTree = "<group>"; };
+		F78E59A57A8F107E2405C72E42FC758F /* Pods_SimpleXML_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleXML_Tests.framework; path = "Pods-SimpleXML_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D8B4C04D7728B84D2B792D4E71965F /* SimpleXML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleXML.swift; path = SimpleXML/Classes/SimpleXML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,19 +81,9 @@
 		17BBABA8F830A2F465F7A3002C7BCB90 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43EF83302A6667ECC6001755651924EF /* SimpleXML */,
+				9663F04D5F3744D2E3DFD0C543145F12 /* SimpleXML */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		43EF83302A6667ECC6001755651924EF /* SimpleXML */ = {
-			isa = PBXGroup;
-			children = (
-				FC394F201FDA04F3002D8D29 /* SimpleXML.swift */,
-				B444B361BADC616C1AF4DAE17D7F737E /* Support Files */,
-			);
-			name = SimpleXML;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -116,15 +106,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B444B361BADC616C1AF4DAE17D7F737E /* Support Files */ = {
+		9663F04D5F3744D2E3DFD0C543145F12 /* SimpleXML */ = {
 			isa = PBXGroup;
 			children = (
-				174E065F975C222D583B15072D3D3DF9 /* Info.plist */,
-				897C3E94F0ACD27E93588936DC38CB90 /* SimpleXML.modulemap */,
-				5239F0932B77D0CB5800210ED0C5A35C /* SimpleXML.xcconfig */,
-				5473427086EC1A29149B4B404C160375 /* SimpleXML-dummy.m */,
-				D736A04651CD258D0F4A9198EDC34448 /* SimpleXML-prefix.pch */,
-				3FB2ED581856942B94F3778ED4DA3036 /* SimpleXML-umbrella.h */,
+				F9D8B4C04D7728B84D2B792D4E71965F /* SimpleXML.swift */,
+				9FF4FDD28FB559EF2A4F7B7D78250A31 /* Support Files */,
+			);
+			name = SimpleXML;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9FF4FDD28FB559EF2A4F7B7D78250A31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD6848A137FDB7FAB2061B7A51FFF05 /* Info.plist */,
+				AAA360B5080F6ECE147F88DAE100DAD4 /* SimpleXML.modulemap */,
+				B26AA34BA70586AE34959D79783C59AD /* SimpleXML.xcconfig */,
+				539BB40BAA7A20D2440FAA1EDBD9F504 /* SimpleXML-dummy.m */,
+				14D1DAC3AE7BE673D92A65A6E9423BD4 /* SimpleXML-prefix.pch */,
+				7DAC4278627826B308A882D5D6C7308D /* SimpleXML-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SimpleXML";
@@ -190,7 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AFD3CE3143DD0B217724968EC980FA0 /* Build configuration list for PBXNativeTarget "SimpleXML" */;
 			buildPhases = (
-				3D7F49ABA0D1AC9792398E06067ED62F /* Sources */,
+				F35778D95BDD271E60F4BED977EFEFCA /* Sources */,
 				B5BFEB48DF6D7BBE108F829E91BD34E2 /* Frameworks */,
 				793E2E29BC522BF7A27E56A329B79B57 /* Headers */,
 			);
@@ -229,11 +229,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					8442330E09D65B258AB5168F8300293D = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,15 +254,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B27D3E498E6A8E98E08C170795CA47A /* Pods-SimpleXML_Tests-dummy.m in Sources */,
-				FC394F211FDA04F3002D8D29 /* SimpleXML.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D7F49ABA0D1AC9792398E06067ED62F /* Sources */ = {
+		F35778D95BDD271E60F4BED977EFEFCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE8ABE27953E023B733A0930065F668 /* SimpleXML-dummy.m in Sources */,
+				8B649B0F2AA85016D1296BA4B0DF846F /* SimpleXML-dummy.m in Sources */,
+				90E291B940C77B40726066E211C32814 /* SimpleXML.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +324,7 @@
 		};
 		323AF706143BEEE9756176A29D75A8BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5239F0932B77D0CB5800210ED0C5A35C /* SimpleXML.xcconfig */;
+			baseConfigurationReference = B26AA34BA70586AE34959D79783C59AD /* SimpleXML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -364,7 +359,7 @@
 		};
 		96CFDD284EDAC20DACC0E579FB3820AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5239F0932B77D0CB5800210ED0C5A35C /* SimpleXML.xcconfig */;
+			baseConfigurationReference = B26AA34BA70586AE34959D79783C59AD /* SimpleXML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -401,7 +396,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 310F55E142B625C0429B7952537FF481 /* Pods-SimpleXML_Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -440,7 +434,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5F033131AE10D00F8CA6E4D4D312954 /* Pods-SimpleXML_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

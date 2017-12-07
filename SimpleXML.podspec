@@ -35,7 +35,7 @@ More description and usage patterns forthcoming.
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.12'
 
-  s.source_files = 'SimpleXML/Classes/**/*'
+  s.source_files = 'SimpleXML/Classes/SimpleXML.swift'
   
   # s.resource_bundles = {
   #   'SimpleXML' => ['SimpleXML/Assets/*.png']
