@@ -1,0 +1,6 @@
+framework module SimpleXML {
+  umbrella header "SimpleXML-umbrella.h"
+
+  export *
+  module * { export * }
+}
